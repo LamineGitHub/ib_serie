@@ -4,6 +4,12 @@ btn.addEventListener("click", () => {
   document.body.style.backgroundColor = rgbColorGenerator()
 })
 
+/**
+ * La fonction génère une couleur RVB aléatoire et la renvoie sous forme de chaîne.
+ * @returns La fonction `rgbColorGenerator` renvoie une chaîne au format d'une couleur RVB, avec trois
+ * nombres aléatoires entre 0 et 255 (inclus) séparés par des virgules. Par exemple, la chaîne renvoyée
+ * pourrait ressembler à ceci : "rgb(123, 45, 200)".
+ */
 const rgbColorGenerator = () => {
   const rgb = []
 
