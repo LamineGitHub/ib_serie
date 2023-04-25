@@ -1,0 +1,18 @@
+* {
+  font-family: sans-serif;
+  font-size: large;
+}
+
+label,
+div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+p {
+  color: red;
+}
+
+input {
+  width: 230px;
+}

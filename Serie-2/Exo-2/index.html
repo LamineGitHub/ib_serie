@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Calcule de nombre de jours</h2>
+
+    <label>
+        Mois :
+        <input type="number" min="1" max="12" id="mois" placeholder="Saisir le nombre de mois">
+        <p id="errorMois"></p>
+    </label>
+
+    <label>
+        Année :
+        <input type="number" min="1" id="annee" placeholder="Saisir le nombre d'année">
+        <p id="errorAnnee"></p>
+    </label>
+
+    <div id="resultat"></div>
+
+    <button id="btn">Calculer</button>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Inscrption</h1>
+
+    <form>
+
+        <div>
+            <label for="nomEtPrenom">
+                Nom et Prénom* :
+            </label>
+            <input type="text" id="nomEtPrenom" required>
+        </div>
+
+        <div>
+            <label for="CIN">
+                CIN* :
+            </label>
+            <input type="text" id="CIN" required>
+        </div>
+
+        <div>
+            <label for="email">
+                Addresse e-mail* :
+            </label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div>
+            <label>
+                Niveau :
+            </label>
+            <input type="radio" name="niveau" id="secondaire" value="Secondaire" checked> Secondaire
+            <input type="radio" name="niveau" id="universitaire" value="Universitaire"> Universitaire
+            <input type="radio" name="niveau" id="autre" value="Autre"> Autre
+        </div>
+
+        <div>
+            <label>
+                Module de formation :
+            </label>
+            <select name="formation" id="formation">
+                <option value="" selected>Bureautique</option>
+                <option value="">SE et Resaux info.</option>
+                <option value="">TIC</option>
+            </select>
+        </div>
+
+        <div class="btn">
+            <button type="submit">Envoyer</button>
+            <button type="reset">Annuler</button>
+        </div>
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

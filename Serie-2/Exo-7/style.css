@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-left: 20px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+form * {
+  font-size: large;
+}
+
+p {
+  color: red;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 60px;
+  margin-right: 5px;
+  width: 180px;
+  text-align: right;
+}
+button[type="submit"] {
+  margin-right: 15px;
+}
+
+.btn {
+  width: 40%;
+  text-align: center;
+}
