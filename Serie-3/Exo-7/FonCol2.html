@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exo 7</title>
+    <style>
+        * {font-family: sans-serif;font-size: large;}
+    </style>
+</head>
+
+<body>
+    <h1>Choix de la couleur de fond</h1>
+
+    <label for="bgColorSelect">Choisissez la couleur de fond :</label>
+    <select id="bgColorSelect" onchange="changeBgColor()">
+        <option value="#C0C0C0">Gris</option>
+        <option value="#669999">Bleu</option>
+        <option value="#99FF66">Vert</option>
+    </select>
+
+    <script>
+        function changeBgColor() {
+            let bgColor = document.getElementById("bgColorSelect").value;
+            document.body.style.backgroundColor = bgColor;
+        }
+    </script>
+</body>
+
+</html>

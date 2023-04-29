@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exo 7</title>
+  <style>
+    * {
+      font-family: sans-serif;
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Choix de la couleur de fond</h1>
+
+  <script>
+    let bgColor = prompt("Choisissez la couleur de fond : gris, bleu ou vert", "gris");
+
+    switch (bgColor) {
+      case "gris":
+        document.body.style.backgroundColor = "#C0C0C0";
+        break
+      case "bleu":
+        document.body.style.backgroundColor = "#669999";
+        break
+      case "vert":
+        document.body.style.backgroundColor = "#99FF66";
+        break
+      default:
+        alert("Couleur non reconnue. La couleur par défaut sera utilisée.");
+        break
+    }
+  </script>
+</body>
+
+</html>
